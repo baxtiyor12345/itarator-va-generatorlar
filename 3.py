@@ -18,7 +18,7 @@ for item in r:
 anonim =  [a for a in range(1000)]
 print(anonim)
 
-my_generator = (b for b in range(10))
+my_generator = (b for b in range(15))
 print(my_generator)
 for i in my_generator:
     print(i)
